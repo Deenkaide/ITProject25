@@ -4,6 +4,7 @@ html{
     background-color: #252525;
     color: white;
     font-family: "Sofia Sans";
+    font-size: 18px;
     padding: 0px;
     margin: 0px;
 }
@@ -29,28 +30,48 @@ html{
 
 .text-left{
     max-width: 80%;
-    margin: 0px 0px 0px 5%;
+    margin-left: 5%;
+}
+.text-left2{
+    max-width: 80%;
+    margin-left: 10%;
+}
+.text-center{
+    max-width: 80%;
+    justify-self: center;
 }
 
 a{
-    color: white;
+    color: burlywood;
     text-decoration: none;
     text-decoration: underline;
 }
 
 .title{
     font-size: 3rem;
-    margin: 0px 0px 0px 5%;
+    margin: 20px 0px 0px 5%;
+    text-decoration: underline;
+}
+.theme{
+    font-size: 3rem;
+    margin: 20px 0px 0px 5%;
+    text-decoration: underline;
+    margin-left: 10%;
+}
+.colored{
+    color: burlywood;
+    margin: 0px;
 }
 
 /* Подвал */
 footer{
     background-color: black;
-    padding: 10px 10px 10px 50px;
     width: 90%;
+    height: 80px;
     border-radius: 10px;
+    padding-left: 50px;
     justify-self: center;
-    margin: 50px 0px 0px 0px;
+    align-content: center; 
 
-    
+    margin-top: 50px;
 }
