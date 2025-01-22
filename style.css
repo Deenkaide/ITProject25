@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Sofia+Sans:ital,wght@0,1..1000;1,1..1000&display=swap');
+
+html{
+    background-color: #252525;
+    color: white;
+    font-family: "Sofia Sans";
+    padding: 0px;
+    margin: 0px;
+}
+/* Навигация */
+.navigator{
+    display: flex;
+    background-color: black;
+    width: 90%;
+    height: 50px;
+    border-radius: 10px;
+    padding-left: 50px;
+    justify-self: center;
+    align-items: center;
+    gap: 5%;
+}
+
+/* Основа */
+.header h1{
+    font-size: 5rem;
+    justify-self: center;
+    margin: 0px;
+}
+
+.text-left{
+    max-width: 80%;
+    margin: 0px 0px 0px 5%;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+    text-decoration: underline;
+}
+
+.title{
+    font-size: 3rem;
+    margin: 0px 0px 0px 5%;
+}
+
+/* Подвал */
+footer{
+    background-color: black;
+    padding: 10px 10px 10px 50px;
+    width: 90%;
+    border-radius: 10px;
+    justify-self: center;
+    margin: 50px 0px 0px 0px;
+
+    
+}
