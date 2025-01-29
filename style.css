@@ -23,7 +23,7 @@ html{
 
 /* Основа */
 .header h1{
-    font-size: 4rem;
+    font-size: 3rem;
     justify-self: center;
     margin: 0px;
     display: flex;
