@@ -26,6 +26,7 @@ html{
     font-size: 4rem;
     justify-self: center;
     margin: 0px;
+    display: flex;
 }
 
 .text-left{
@@ -64,9 +65,15 @@ a{
     text-decoration: none;
 }
 
-img{
+.headimg{
     max-width: 3rem;
+    display: flex;
+}
+
+img{
+    max-width: 200px;
     margin-top: 5px;
+    display: flex;
 }
 
 /* Подвал */
