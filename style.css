@@ -61,6 +61,12 @@ a{
 .colored{
     color: burlywood;
     margin: 0px;
+    text-decoration: none;
+}
+
+img{
+    max-width: 3rem;
+    margin-top: 5px;
 }
 
 /* Подвал */
